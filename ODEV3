@@ -1,0 +1,11 @@
+1- Select country from country
+Where country Like 'A%a';
+
+Select country from country
+Where country Like '_____%n';
+
+Select title from film
+Where title ILike '%t%t%t%t%';
+
+Select * from film 
+Where title Like 'C%' And length > 90 And rental_rate = 2.99;
